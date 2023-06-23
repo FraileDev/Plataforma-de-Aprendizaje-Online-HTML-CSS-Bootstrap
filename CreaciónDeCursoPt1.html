@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" href="CSS/Style1.css">
+    <!-- Titulo -->
+    <title>Creación de curso</title>
+</head>
+
+<!-- ENCABEZADO -->
+<header>
+    <nav class="navbar" style="background-color: whi;">
+        <div class="container">
+            <a class="navbar-brand" href="inicioProfesor.html">
+                <img src="IMGS/11212_vectorized.png"  width="160" height="60" 
+                class="d-inline-block align-top rss opacity logo" alt="Logo">
+              </a>
+
+            <ul class="nav">
+                <li class="nav-item items-text">
+                    <a class="nav-link" style="color: black;" href="CategoriasProfesor.html">Categorias</a>
+                </li>
+                <li class="nav-item items-text">
+                    <a class="nav-link" style="color: black;" href="CreaciónDeCursoPt1.html">Crear curso</a>
+                </li>
+                <li class="nav-item items-text">
+                    <a class="nav-link" style="color: black;" href="Adminnistrarcursos.html">Administrar cursos</a>
+                </li>
+                <li class="nav-item items-text">
+                    <a class="nav-link" style="color: black;" href="ediarPerfilProfesor.html">Mi Perfil</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- CUERPO -->
+<body>
+    <div class="container">
+        <h2>Creacion de curso</h2>
+        <p>____________________________________________________________________________________________________________________________________________________________________________________</p>
+        <br>
+        <div class="row" style="margin-left: 20px; margin-right: 100px;">
+            <div class="col-2">
+                <h5 style="margin-top: 5px;">Nombre del curso:</h5>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row" style="margin-left: 20px; margin-right: 100px;">
+            <div class="col-2" style="width: 205px;">
+                <h5 style="margin-top: 5px;">Categoria del curso:</h5>
+            </div>
+            <div class="col">
+                <select class="form-control">
+                    <option value="" style="font-style: italic;">--- Eliga una categoria ---</option>
+                    <option value="Ejemplo1">Ejemplo1</option>
+                    <option value="Ejemplo2">Ejemplo2</option>
+                    <option value="Ejemplo3">Ejemplo3</option>
+                </select>
+            </div>
+        </div>
+        <br><br>
+        <div class="container" style="margin-left: 20px; width: 91%;">
+            <h5>¿Quien debera tomar este curso?</h5>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+        <div class="container" style="margin-left: 20px; width: 91%;">
+            <h5>Descripción del curso:</h5>
+            <textarea class="form-control" rows="4" placeholder="¿Que aprenderan los alumnos que se suscriban al curso?"></textarea>
+        </div>
+        <br>
+        <div class="row" style="margin-left: 20px; margin-right: 100px;">
+            <div class="col-3">
+                <h5 style="margin-top: 5px;">Duración estimada del curso:</h5>
+            </div>
+            <div class="col-1">
+                <input type="number" class="form-control">
+            </div>
+            <div class="col-1" style="margin-left: -15px; margin-top: 5px;">
+                <h5>Hrs</h5>
+            </div>
+        </div>
+        <br>
+        <div class="row" style="margin-left: 20px; margin-right: 100px;">
+            <div class="col-2">
+                <h5 style="margin-top: 5px;">Imagen del curso:</h5>
+            </div>
+            <div class="col-2">
+                <input type="file" class="form-control" style="width: 160px;">
+            </div>
+        </div>
+        <br>
+        <div class="row" style="text-align: right;">
+            <div class="col-1" style="margin-left: 75%;">
+                <a href="CreaciónDeCursoPt2.html"><button type="button" class="btn btn-warning" style="font-weight: bold;">Siguiente</button></a>
+            </div>
+            <div class="col-1">
+                <a href="Adminnistrarcursos.html"><button type="button" class="btn btn-warning" style="font-weight: bold;">Cancelar</button></a>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+
+<!-- PIE DE PAGINA -->
+<footer>
+    <div class="container-cover" style="background-color: rgb(218, 213, 213);">
+        <br><br>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <h5>Información</h5>
+                    <p>TecnoWeb es una empresa dedicada a ofrecer cursos sobre diferentes tecnologias.</p>                    
+                </div>
+                <div class="col-2">
+                    <h5>Contactanos</h5>
+                    <ul style="list-style-type: none; padding: 0px;">
+                        <a href="#" style="text-decoration: none;"><li>Correo Electronico</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Numero de Telefono</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Nuestras Redes Sociales</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Direccion</li></a>
+                    </ul>
+                </div>
+                <div class="col-5">
+                    <h5>Idiomas</h5>
+                    <ul style="list-style-type: none; padding: 0px;">
+                        <a href="#" style="text-decoration: none;"><li>Español</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Ingles</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Frances</li></a>
+                        <a href="#" style="text-decoration: none;"><li>Aleman</li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <a class="navbar-brand" href="inicioProfesor.html">
+                        <img src="IMGS/11212_vectorized.png"  width="180" height="70" 
+                        class="d-inline-block align-top rss opacity logo" alt="Logo">
+                    </a>
+                    <br><br>
+                    <h6>Derechos reservados@2021</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

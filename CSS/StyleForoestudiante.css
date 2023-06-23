@@ -1,0 +1,45 @@
+/*ENCABEZADO*/
+.logo{
+    transform: scale(1);
+    transition: ease-out 0.2s;
+}
+
+.logo:hover{
+    transform: scale(0.89);
+    transition: ease-out 0.2s;
+}
+
+.items-text{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.items-text:hover{
+    font-weight: bold;
+    background-color: rgb(241, 233, 233);
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+/*Button*/
+.btn-bg-custom{
+    transition: ease-in-out 0.3s;
+    background-color: rgb(7, 255, 160);
+    
+}
+
+.btn-bg-custom:hover{
+    transition: ease-in-out 0.3s;
+    background-color: rgb(254, 218, 36);
+    color: rgb(0, 0, 0);
+}
+
+.btn-custom1{
+    width: 125px; 
+    height: 35px; 
+    color: rgb(0, 0, 0);
+}

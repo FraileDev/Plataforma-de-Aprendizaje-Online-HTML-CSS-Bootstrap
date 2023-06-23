@@ -1,0 +1,55 @@
+.sidebar-text{
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+.sidebar-text:hover{
+    color: rgb(151, 127, 127);
+    transition: ease-in-out 0.2s;
+}
+
+.selected{
+    color: rgb(151, 127, 127);
+    transition: ease-in-out 0.2s;
+}
+
+.selected:hover{
+    color: rgb(117, 99, 99);
+    transition: ease-in-out 0.2s;
+}
+
+.btn1-text{
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+.btn1-text:hover{
+    color: rgb(151, 127, 127);
+    transition: ease-in-out 0.2s;
+}
+
+.btn2-text{
+    transition: ease-in-out 0.2s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 232, 232);
+    width: 90px;
+    border-radius: 5px;
+}
+
+.btn2-text:hover{
+    transition: ease-in-out 0.2s;
+    background-color: rgb(187, 173, 173);
+}
+
+.btn3-text{
+    transition: ease-in-out 0.2s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 232, 232);
+    width: 120px;
+    border-radius: 5px;
+}
+
+.btn3-text:hover{
+    transition: ease-in-out 0.2s;
+    background-color: rgb(187, 173, 173);
+}

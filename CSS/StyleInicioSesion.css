@@ -1,0 +1,52 @@
+/*ENCABEZADO*/
+.logo{
+    transform: scale(1);
+    transition: ease-out 0.2s;
+}
+
+.logo:hover{
+    transform: scale(0.89);
+    transition: ease-out 0.2s;
+}
+
+.items-text{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.items-text:hover{
+    font-weight: bold;
+    background-color: rgb(241, 233, 233);
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+/*ESTILO DE BOTON*/
+
+.btn-custom01{
+    margin-left: 4px;
+    width: 49%; 
+    height: 40px; 
+    color: rgb(0, 0, 0);
+}
+
+.botonesIn{
+    display: flex;
+    flex-direction: row;
+} 
+
+.btn-bg-custom02{
+    transition: ease-in-out 0.3s;
+    background-color: rgb(250, 214, 8);
+    
+}
+
+.btn-bg-custom02:hover{
+    transition: ease-in-out 0.3s;
+    background-color: rgb(228, 210, 51);
+    color: rgb(0, 0, 0);
+}
